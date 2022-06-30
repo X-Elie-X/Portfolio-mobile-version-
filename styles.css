@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1a19;
+  width: 375px;
+}
+
+.Header {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./Illustration.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+nav {
+  display: flex;
+  background: #3c3a39;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  padding: 20px 20px;
+}
+
+.lines {
+  cursor: pointer;
+}
+
+.line1 {
+  position: absolute;
+  left: 89%;
+  right: 5.5%;
+  top: 25px;
+  border: 2px solid #acb7c3;
+}
+
+.line2 {
+  position: absolute;
+  left: 89%;
+  right: 5.5%;
+  top: 31px;
+  border: 2px solid #acb7c3;
+}
+
+.line3 {
+  position: absolute;
+  left: 89%;
+  right: 5.5%;
+  top: 37px;
+  border: 2px solid #acb7c3;
+}
+
+.Geading {
+  font-family: "Crete Round", serif;
+  width: 330px;
+  font-weight: 400;
+  font-size: 56px;
+  color: #ff6b00;
+  padding: 0 24px;
+  padding-top: 70px;
+}
+
+.dev {
+  padding: 0 24px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: #fff5e1;
+}
+
+.info {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 30px 20px;
+  color: #fff;
+}
+
+.sm {
+  margin-left: 35px;
+  padding-bottom: 200px;
+  max-width: 200px;
+}
+
+.sm > a {
+  margin-right: 15px;
+}
+
+.sm > a:hover {
+  border-bottom: 1px solid #ff6b00;
+}

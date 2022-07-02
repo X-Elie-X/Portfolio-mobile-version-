@@ -177,6 +177,23 @@ hr {
   border: none;
 }
 
+.effect:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.effect:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+.effect:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+  border: none;
+}
+
 .categories > a:hover {
   border-bottom: 1px solid #ff6b00;
 }
@@ -324,7 +341,7 @@ hr {
   font-size: 22px;
   color: #fff;
   list-style-type: none;
-  margin-bottom: 32px;
+  margin: 32px;
 }
 
 .frame {

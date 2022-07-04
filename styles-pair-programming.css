@@ -1,5 +1,6 @@
 .container {
   position: relative;
+  height: 200px;
 }
 
 .container > ul {
@@ -8,7 +9,18 @@
 
 ul > li {
   float: left;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; 
 }
 
 a {
+  border: 5px solid #ebebff;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: #ebebff;
+  padding: 3px;
+  color: #6070ff;
 }

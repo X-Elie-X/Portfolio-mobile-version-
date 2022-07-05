@@ -361,3 +361,21 @@ hr {
   list-style-type: none;
   margin-bottom: 44px;
 }
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  gap: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+li {
+  list-style-type: none;
+}

@@ -96,10 +96,14 @@ nav {
   margin-right: 15px;
 }
 
-.social > a {
+.social > li > a {
+  padding: 10px;
+}
+
+/* .social > a {
   padding: 10px;
   color: #0d151e;
-}
+} */
 
 .social-media > a:hover {
   border-bottom: 1px solid #ff6b00;
@@ -245,14 +249,14 @@ hr {
   margin-right: 16px;
 }
 
-.project ul {
+.project > ul {
   display: flex;
   gap: 12px;
   margin-left: 16px;
   margin-right: 16px;
 }
 
-.project li {
+.project > ul > li {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -288,7 +292,7 @@ hr {
   background-color: #1c1a19;
 }
 
-.about h3 {
+.about > h3 {
   font-family: "Crete Round", serif;
   font-size: 72px;
   color: #ff6b00;
@@ -298,7 +302,7 @@ hr {
   margin-right: 24px;
 }
 
-.about p {
+.about > p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -308,7 +312,7 @@ hr {
   margin-right: 24px;
 }
 
-.about button {
+.about > button {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -323,11 +327,11 @@ hr {
   margin-right: 190px;
 }
 
-.about button:hover {
+.about > button:hover {
   border-bottom: 2px solid #ff4500;
 }
 
-.about ul {
+.about > ul {
   text-align: center;
 }
 
@@ -341,13 +345,13 @@ hr {
   margin-bottom: 44.73px;
 }
 
-.about li {
+/* .about > li {
   font-family: "Inter", sans-serif;
   font-size: 22px;
   color: #fff;
   list-style-type: none;
   margin: 32px;
-}
+} */
 
 .frame {
   font-family: "Inter", sans-serif;
@@ -398,7 +402,7 @@ form > ul > li > input {
   margin-right: 40px;
 }
 
-input hr {
+input > hr {
   margin-top: 14px;
 }
 
@@ -421,6 +425,7 @@ textarea {
   margin: auto;
   width: 150px;
   margin-bottom: 10px;
+  justify-content: space-evenly;
 }
 
 .hr {

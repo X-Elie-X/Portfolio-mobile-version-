@@ -367,10 +367,10 @@ hr {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 14px;
-  color: #172B4D;
+  color: #172b4d;
   gap: 5px;
   margin-top: 50px;
 }
@@ -383,28 +383,46 @@ form {
   margin-top: 73px;
 }
 
-
-
 li {
   list-style-type: none;
 }
 
-form > ul > li > input{
-    border-style: none;
-    width: 295px;
-    height: 18px;
-    margin-left: 40px;
-    margin-right: 40px;
+form > ul > li > input {
+  border-style: none;
+  width: 295px;
+  height: 18px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-hr{
+hr {
   margin-top: 14px;
 }
 
-textarea{
+textarea {
   width: 327px;
   height: 114px;
   margin-top: -50px;
-
 }
 
+.social-media-contact {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 23px;
+  margin-top: -50px;
+}
+
+.social-media-contact a {
+  padding: 10px;
+  color: #0d151e;
+}
+
+.shape {
+  display: block;
+  margin: auto;
+  width: 150px;
+  margin-bottom: 10px;
+}
+.hr {
+  margin-top: 124px;
+}

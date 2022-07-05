@@ -96,6 +96,11 @@ nav {
   margin-right: 15px;
 }
 
+.social > a {
+  padding: 10px;
+  color: #0d151e;
+}
+
 .social-media > a:hover {
   border-bottom: 1px solid #ff6b00;
 }
@@ -381,13 +386,11 @@ form {
   align-items: center;
   gap: 5px;
   margin-top: 73px;
-}
-
-li {
   list-style-type: none;
 }
 
 form > ul > li > input {
+  list-style-type: none;
   border-style: none;
   width: 295px;
   height: 18px;
@@ -395,7 +398,7 @@ form > ul > li > input {
   margin-right: 40px;
 }
 
-hr {
+input hr {
   margin-top: 14px;
 }
 
@@ -405,16 +408,12 @@ textarea {
   margin-top: -50px;
 }
 
-.social-media-contact {
+.social {
   display: flex;
+  list-style-type: none;
   justify-content: center;
   margin-bottom: 23px;
   margin-top: -50px;
-}
-
-.social-media-contact a {
-  padding: 10px;
-  color: #0d151e;
 }
 
 .shape {
@@ -423,6 +422,7 @@ textarea {
   width: 150px;
   margin-bottom: 10px;
 }
+
 .hr {
   margin-top: 124px;
 }

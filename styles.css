@@ -366,16 +366,45 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: space-between;
-  gap: 15px;
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  color: #172B4D;
+  gap: 5px;
+  margin-top: 50px;
 }
 
-ul {
+form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 5px;
+  margin-top: 73px;
 }
+
+
 
 li {
   list-style-type: none;
 }
+
+form > ul > li > input{
+    border-style: none;
+    width: 295px;
+    height: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+hr{
+  margin-top: 14px;
+}
+
+textarea{
+  width: 327px;
+  height: 114px;
+  margin-top: -50px;
+
+}
+

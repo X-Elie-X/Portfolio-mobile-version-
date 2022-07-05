@@ -402,6 +402,10 @@ form > ul > li > input {
   margin-right: 40px;
 }
 
+.contacts > form > ul > li {
+  list-style-type: none;
+}
+
 input > hr {
   margin-top: 14px;
 }

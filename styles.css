@@ -96,6 +96,15 @@ nav {
   margin-right: 15px;
 }
 
+.social > li > a {
+  padding: 10px;
+}
+
+/* .social > a {
+  padding: 10px;
+  color: #0d151e;
+} */
+
 .social-media > a:hover {
   border-bottom: 1px solid #ff6b00;
 }
@@ -240,14 +249,14 @@ hr {
   margin-right: 16px;
 }
 
-.project ul {
+.project > ul {
   display: flex;
   gap: 12px;
   margin-left: 16px;
   margin-right: 16px;
 }
 
-.project li {
+.project > ul > li {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -283,7 +292,7 @@ hr {
   background-color: #1c1a19;
 }
 
-.about h3 {
+.about > h3 {
   font-family: "Crete Round", serif;
   font-size: 72px;
   color: #ff6b00;
@@ -293,7 +302,7 @@ hr {
   margin-right: 24px;
 }
 
-.about p {
+.about > p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -303,7 +312,7 @@ hr {
   margin-right: 24px;
 }
 
-.about button {
+.about > button {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -318,11 +327,11 @@ hr {
   margin-right: 190px;
 }
 
-.about button:hover {
+.about > button:hover {
   border-bottom: 2px solid #ff4500;
 }
 
-.about ul {
+.about > ul {
   text-align: center;
 }
 
@@ -336,13 +345,13 @@ hr {
   margin-bottom: 44.73px;
 }
 
-.about li {
+/* .about > li {
   font-family: "Inter", sans-serif;
   font-size: 22px;
   color: #fff;
   list-style-type: none;
   margin: 32px;
-}
+} */
 
 .frame {
   font-family: "Inter", sans-serif;
@@ -360,4 +369,69 @@ hr {
   color: #fff;
   list-style-type: none;
   margin-bottom: 44px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #172b4d;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-top: 73px;
+  list-style-type: none;
+}
+
+form > ul > li > input {
+  list-style-type: none;
+  border-style: none;
+  width: 295px;
+  height: 18px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contacts > form > ul > li {
+  list-style-type: none;
+}
+
+input > hr {
+  margin-top: 14px;
+}
+
+textarea {
+  width: 327px;
+  height: 114px;
+  margin-top: -50px;
+}
+
+.social {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-bottom: 23px;
+  margin-top: -50px;
+}
+
+.shape {
+  display: block;
+  margin: auto;
+  width: 150px;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+}
+
+.hr {
+  margin-top: 124px;
 }

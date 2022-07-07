@@ -446,3 +446,11 @@ textarea {
 .hr {
   margin-top: 124px;
 }
+
+input:hover {
+  transform: translate(2.5rem, 2ex);
+}
+
+textarea:hover {
+  transform: translate(2.5rem, 2ex);
+}

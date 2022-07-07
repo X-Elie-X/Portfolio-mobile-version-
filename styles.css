@@ -43,6 +43,16 @@ nav {
   font-size: 18px;
   color: #fff;
   text-decoration: none;
+  animation: animated-text 4s;
+}
+
+@keyframes animated-text {
+  from {
+    transform: rotate(3.142rad);
+  }
+  to {
+    transform: rotate(0rad);
+  }
 }
 
 .nav-b {
@@ -190,6 +200,7 @@ hr {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
+  transition: 0.5s;
 }
 
 .effect:active {

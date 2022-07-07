@@ -51,7 +51,9 @@ nav {
   cursor: pointer;
   padding: 12px 24px;
 }
-
+.nav-b > .names {
+  display: none;
+}
 .intro {
   display: flex;
   flex-direction: column;
@@ -136,6 +138,10 @@ hr {
 .placeholder {
   width: 327px;
   height: 237px;
+}
+
+.placeholders {
+  display: none;
 }
 
 .post {
@@ -334,6 +340,9 @@ hr {
 .about > ul {
   text-align: center;
 }
+.inline-styles {
+  display: none;
+}
 
 .lang {
   font-family: "Meera Inimai", sans-serif;
@@ -344,14 +353,14 @@ hr {
   margin-top: 136.76px;
   margin-bottom: 44.73px;
 }
-
-/* .about > li {
+.lang > ul > li {
   font-family: "Inter", sans-serif;
   font-size: 22px;
+  font-weight: 400;
+  margin: 32px;
   color: #fff;
   list-style-type: none;
-  margin: 32px;
-} */
+}
 
 .frame {
   font-family: "Inter", sans-serif;
@@ -360,6 +369,15 @@ hr {
   color: #fff;
   list-style-type: none;
   margin-bottom: 44px;
+}
+
+.frame > ul > li {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 32px;
+  color: #fff;
+  list-style-type: none;
 }
 
 .skill {
@@ -371,86 +389,14 @@ hr {
   margin-bottom: 44px;
 }
 
-.contacts {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
+.skill > ul > li {
   font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  color: #172b4d;
-  gap: 5px;
-  margin-top: 50px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  margin-top: 73px;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 32px;
+  color: #fff;
   list-style-type: none;
 }
-
-form > ul > li > input {
-  list-style-type: none;
-  border-style: none;
-  width: 295px;
-  height: 18px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.contacts > form > ul > li {
-  list-style-type: none;
-}
-
-input > hr {
-  margin-top: 14px;
-}
-
-textarea {
-  width: 327px;
-  height: 114px;
-  margin-top: -50px;
-}
-
-.social {
-  display: flex;
-  list-style-type: none;
-  justify-content: center;
-  margin-bottom: 23px;
-  margin-top: -50px;
-}
-
-.shape {
-  display: block;
-  margin: auto;
-  width: 150px;
-  margin-bottom: 10px;
-  justify-content: space-evenly;
-}
-
-.hr {
-  margin-top: 124px;
-}
-<<<<<<< Updated upstream
-=======
-
-input:hover {
-  transform: translate(2.5rem, 2ex);
-}
-
-textarea:hover {
-  transform: translate(2.5rem, 2ex);
-}
-
-img:hover {
-  transform: scale(0.7);
-}
-/* deleted
- */
 
 .contact-form {
   display: flex;
@@ -512,4 +458,10 @@ textarea {
   margin-bottom: 10px;
   justify-content: space-evenly;
 }
->>>>>>> Stashed changes
+
+.hr {
+  margin-top: 124px;
+}
+.titells {
+  display: none;
+}

@@ -454,3 +454,7 @@ input:hover {
 textarea:hover {
   transform: translate(2.5rem, 2ex);
 }
+
+img:hover{
+  transform: scale(0.7);
+}

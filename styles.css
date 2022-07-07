@@ -51,7 +51,9 @@ nav {
   cursor: pointer;
   padding: 12px 24px;
 }
-
+.nav-b > .names {
+  display: none;
+}
 .intro {
   display: flex;
   flex-direction: column;
@@ -136,6 +138,10 @@ hr {
 .placeholder {
   width: 327px;
   height: 237px;
+}
+
+.placeholders {
+  display: none;
 }
 
 .post {
@@ -334,6 +340,9 @@ hr {
 .about > ul {
   text-align: center;
 }
+.inline-styles {
+  display: none;
+}
 
 .lang {
   font-family: "Meera Inimai", sans-serif;
@@ -344,14 +353,14 @@ hr {
   margin-top: 136.76px;
   margin-bottom: 44.73px;
 }
-
-/* .about > li {
+.lang > ul > li {
   font-family: "Inter", sans-serif;
   font-size: 22px;
+  font-weight: 400;
+  margin: 32px;
   color: #fff;
   list-style-type: none;
-  margin: 32px;
-} */
+}
 
 .frame {
   font-family: "Inter", sans-serif;
@@ -360,6 +369,15 @@ hr {
   color: #fff;
   list-style-type: none;
   margin-bottom: 44px;
+}
+
+.frame > ul > li {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 32px;
+  color: #fff;
+  list-style-type: none;
 }
 
 .skill {
@@ -371,7 +389,16 @@ hr {
   margin-bottom: 44px;
 }
 
-.contacts {
+.skill > ul > li {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 32px;
+  color: #fff;
+  list-style-type: none;
+}
+
+.contact-form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -402,7 +429,7 @@ form > ul > li > input {
   margin-right: 40px;
 }
 
-.contacts > form > ul > li {
+.contact-form > form > ul > li {
   list-style-type: none;
 }
 
@@ -434,4 +461,7 @@ textarea {
 
 .hr {
   margin-top: 124px;
+}
+.titells {
+  display: none;
 }

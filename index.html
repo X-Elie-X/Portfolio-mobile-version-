@@ -6,12 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <header class="header">
       <nav class="nav-b">
         <a href="#" class="name">Elie Harfouche</a>
-        <a href="#"><img src="./img/Union.png" alt="" /></a>
+        <a href="#" class="nam"><img src="./img/Union.png" alt="" /></a>
+        <ul class="names">
+          <li>Portoflio</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li><img src="./img/un.png" alt="" /></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -43,25 +50,31 @@
         </li>
       </ul>
     </main>
-    <h2 class="titel">My Recent Works</h2>
-    <hr />
+    <div class="titels">
+      <h2 class="titel">My Recent Works</h2>
+      <hr />
+      <img src="./img/Vector4.png" alt="" class="titells" />
+    </div>
     <section class="works">
       <a class="placeholder">
         <img src="./img/ImgPlaceholder.png" alt="" />
       </a>
-      <h3 class="post">Multi-Post Stories</h3>
-      <p class="info1">
-        A daily selection of privately personalized reads; no accounts or
-        sign-ups required. has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a standard dummy text.
-      </p>
-      <ul class="categories">
-        <li>css</li>
-        <li>html</li>
-        <li>bootstrap</li>
-        <li>Ruby</li>
-      </ul>
-      <button type="button" class="btn effect">See Project</button>
+      <a class="placeholders"><img src="./img/ImgPlaceholder6.png" alt="" /></a>
+      <div class="works-details">
+        <h3 class="post">Multi-Post Stories</h3>
+        <p class="info1">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a standard dummy text.
+        </p>
+        <ul class="categories">
+          <li>css</li>
+          <li>html</li>
+          <li>bootstrap</li>
+          <li>Ruby</li>
+        </ul>
+        <button type="button" class="btn effect">See Project</button>
+      </div>
     </section>
     <section class="projects">
       <div class="project">
@@ -152,9 +165,10 @@
       </p>
       <button type="button" class="effect">Get My Resume</button>
       <hr />
-      <ul>
+      <img src="./img/Vector44.png" alt="" class="inline" />
+      <ul class="list">
         <li class="lang">
-          <a href="#"><img src="./img/Rectangle55.png" alt="" /></a>Language
+          <img src="./img/Rectangle55.png" alt="" />Language
           <ul>
             <li>Javascript</li>
             <li>Ruby</li>
@@ -162,9 +176,8 @@
             <li>Css</li>
           </ul>
         </li>
-
         <li class="frame">
-          <a href="#"><img src="./img/Rectangle56.png" alt="" /></a>Frameworks
+          <img src="./img/Rectangle56.png" alt="" />Frameworks
           <ul>
             <li>Bootstrap</li>
             <li>Ruby on Rails</li>
@@ -173,9 +186,8 @@
             <li>Selenium</li>
           </ul>
         </li>
-
         <li class="skill">
-          <a href="#"><img src="./img/Rectangle57.png" alt="" /></a>
+          <img src="./img/Rectangle57.png" alt="" />
           Skills
           <ul>
             <li>Codekit</li>
@@ -187,7 +199,7 @@
         </li>
       </ul>
     </section>
-    <section class="contacts">
+    <section class="contact-form">
       <h2>
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.

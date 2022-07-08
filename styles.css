@@ -50,6 +50,7 @@ nav {
   from {
     transform: rotate(3.142rad);
   }
+
   to {
     transform: rotate(0rad);
   }
@@ -61,9 +62,11 @@ nav {
   cursor: pointer;
   padding: 12px 24px;
 }
+
 .nav-b > .names {
   display: none;
 }
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -111,11 +114,6 @@ nav {
 .social > li > a {
   padding: 10px;
 }
-
-/* .social > a {
-  padding: 10px;
-  color: #0d151e;
-} */
 
 .social-media > a:hover {
   border-bottom: 1px solid #ff6b00;
@@ -298,6 +296,7 @@ hr {
 .project-btn:hover {
   border-bottom: 2px solid #ff4500;
 }
+
 .projects1 {
   display: none;
 }
@@ -354,7 +353,12 @@ hr {
 .about > ul {
   text-align: center;
 }
-.inline-styles {
+
+.inlines-styles {
+  display: none;
+}
+
+.titells {
   display: none;
 }
 
@@ -367,6 +371,7 @@ hr {
   margin-top: 136.76px;
   margin-bottom: 44.73px;
 }
+
 .lang > ul > li {
   font-family: "Inter", sans-serif;
   font-size: 22px;
@@ -465,6 +470,10 @@ textarea {
   margin-top: -50px;
 }
 
+.socials {
+  display: none;
+}
+
 .shape {
   display: block;
   margin: auto;
@@ -472,11 +481,27 @@ textarea {
   margin-bottom: 10px;
   justify-content: space-evenly;
 }
+
+.h2 {
+  display: none;
+}
+
 .contact-forms {
   display: none;
 }
+
 .hr {
   margin-top: 124px;
+}
+
+.hr1,
+.hr2,
+.hr3 {
+  display: none;
+}
+
+.socials-1 {
+  display: none;
 }
 
 input:hover {

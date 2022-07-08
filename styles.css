@@ -298,6 +298,9 @@ hr {
 .project-btn:hover {
   border-bottom: 2px solid #ff4500;
 }
+.projects1 {
+  display: none;
+}
 
 .about {
   display: flex;
@@ -469,7 +472,9 @@ textarea {
   margin-bottom: 10px;
   justify-content: space-evenly;
 }
-
+.contact-forms {
+  display: none;
+}
 .hr {
   margin-top: 124px;
 }
